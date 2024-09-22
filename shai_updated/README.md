@@ -44,19 +44,22 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-## dependencies
-npx create-react-app weskitask --template typescript
-npm install typescript @types/react @types/react-dom
-npm install @mui/material @emotion/react @emotion/styled
-npm install @mui/x-date-pickers dayjs
-npm install styled-components @types/styled-components
-npm install axios
-npm install lodash @types/lodash
 
 
-## for backend:
-npm install ts-node-dev --save-dev
-npm install express axios dayjs uuid lodash
-npm install typescript @types/express @types/lodash @types/uuid --save-dev
-npm install cors
-npm install --save-dev @types/cors
+## To Start The Project
+
+To start the project
+cd into weski-task\weskitask
+
+npm i
+
+npm start
+
+cd ..
+
+cd backend
+
+npm i
+
+npm run dev
+
